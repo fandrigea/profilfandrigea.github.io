@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Latar belakang gelap */
+    color: #ffffff; /* Warna teks putih untuk kontras */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto; /* Menambahkan sedikit margin atas dan bawah */
+    padding: 20px;
+    background-color: #ffffff; /* Latar belakang kontainer putih */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px; /* Membuat sudut kontainer sedikit melengkung */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333; /* Judul tetap gelap untuk kontras */
+}
+
+h2 {
+    color: #4CAF50; /* Warna hijau untuk subjudul */
+}
+
+.profile, .skills, .contact {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #f4f4f4; /* Latar belakang item keahlian */
+    color: #333; /* Warna teks item keahlian gelap */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a {
+    color: #4CAF50; /* Warna hijau untuk tautan */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Menggarisbawahi tautan saat hover */
+}
+.contact p {
+    display: flex;
+    align-items: center; /* Pusatkan ikon dan teks secara vertikal */
+}
+
+.contact i {
+    margin-right: 10px; /* Jarak antara ikon dan teks */
+    color: #4CAF50; /* Warna ikon */
+}
+.profile-photo {
+    display: block;
+    margin: 10px auto; /* Pusatkan foto */
+    width: 10px; /* Lebar foto */
+    height: 10px; /* Tinggi foto disamakan agar berbentuk lingkaran */
+    border-radius: 50%; /* Membuat foto berbentuk lingkaran */
+    object-fit: cover; /* Memastikan gambar tetap proporsional */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan pada foto */
+}
+
+
